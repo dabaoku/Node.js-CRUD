@@ -34,7 +34,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: dabaoku/test-githubactionci
-        tags: v1, latest
+        tags: v1.01, latest
         registry: docker.io
         # dockerfile: Dockerfile.ci
         username: ${{ secrets.DOCKER_USERNAME }}
