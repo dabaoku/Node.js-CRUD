@@ -1,3 +1,5 @@
+#REF: https://medium.com/10coding/node-js-docker-系列-一-dockerfile-設定-4b809bae24d5
+
 # Base image
 FROM node:alpine
 # Create app directory

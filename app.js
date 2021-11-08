@@ -12,7 +12,7 @@ mongoose.connect(url, {useNewUrlParser: true})
     .then(() => console.log('Database Connect Successfully!'))
     .catch((error) => console.log(error))
 
-app.listen(9000, () =>{
-    console.log("Server running on http://localhost:9000")
+app.listen(9090, () =>{
+    console.log("Server running on http://localhost:9090")
     app.put("Hello");
 })
